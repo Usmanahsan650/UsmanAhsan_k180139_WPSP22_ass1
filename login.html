@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar nav-light ">
+        <div class="flex-row-sb" style="width: 50%;">
+            <span class="brand" id="brand">
+                <svg height="210" width="500">
+                    <polygon points="0,0 150,0 150,50 0,50 " style="fill:lime;stroke:purple;stroke-width:1" />
+                    Sorry, your browser does not support inline SVG.
+                </svg>
+            </span>
+            <span class="transparent-button hidden">
+                <a class="link-nav"> Browse Categories</a>
+            </span>
+            <span class="transparent-button hidden">
+                <a class="link-nav"> Blog</a>
+            </span>
+
+            <span class="transparent-button hidden" id="writeReview">
+                <a class="link-nav" href="/review.html"> Write A Review</a>
+            </span>
+
+        </div>
+        <div class="flex-row-sb" style="width: 25%;">
+            <span class="transparent-button hidden">
+                <a class="link-nav" href="/login.html">Login</a>
+            </span>
+            <span class="transparent-button hidden">
+                <a class="link-nav" href="/signup.html">SignUp</a>
+            </span>
+            <span class="yb-button">
+                <a>Are You A Home Pro?</a>
+            </span>
+        </div>
+
+    </nav>
+    <div class="container dark">
+        <div class="row">
+            <div class="col-12 center"><h2>Login</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="email">Email</label>
+                <input class="login" type="text" placeholder="email"/>
+                <label for="pass">Password</label>
+                <input class="login" type="text" placeholder="password"/>
+                <button id="loginButton">Login</button>
+                
+            </div>
+            <div class="col-6">
+                <span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i></span>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
