@@ -166,7 +166,7 @@ a{
    border: 0px;
 }
 .footer{
-    margin-top: 100pt;
+    margin-top: 200px;
     background-color: #232F3A;
     height: 300pt;
 }
@@ -211,4 +211,14 @@ input.login{
 }
 .hidden{
     visibility: hidden;
+}
+.seprator{
+    color: black;
+    height: 2px;
+    border: 2px solid;
+    width: 100%;
+}
+.Categories{
+    background-color: #27A9E1;
+    border: 2px solid blue;
 }
